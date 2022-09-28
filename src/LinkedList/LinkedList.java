@@ -172,6 +172,8 @@ public class LinkedList {
 	 //set last node
 	 last = first;
 	 last.next = null;
+	 
+	 //set first
 	 first = previous;
    }
 }
